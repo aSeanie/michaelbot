@@ -42,8 +42,8 @@ bot = commands.Bot(command_prefix='$', intents=intents)
 # Define triggers and responses
 # -------------------------
 TRIGGERS = {
-    r"\b(movie|movies|theatre|theatres)\b": "sorry im seeing it with J",
-    r"\b(eat|dinner)\b": "Im already having steak tonight",
+    r"\b(movie|movies|theatre|theatres)\b": "Im seeing it with J",
+    r"\b(eat|dinner|kelseys|chucks)\b": "Im already having steak tonight",
     r"\bbottom\b": "Johnny is such a bottom"
 }
 
@@ -117,3 +117,4 @@ keep_alive()
 # Run the bot
 # -------------------------
 bot.run(token)
+
